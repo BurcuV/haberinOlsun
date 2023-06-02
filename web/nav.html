@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slider Uygulaması</title>
+    <link rel="stylesheet" href="custom.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="custom.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script type="text/javascript" src="https://paracevirici.com/servis/widget/widget.js"></script>
+    <script type="text/javascript">
+
+        $(function(){
+        typeof $.fn.paraceviriciWidget == "function" && 
+        $("#W1938").paraceviriciWidget({
+            widget:"boxline",
+            wData:{
+                category:0,
+                currency:"USD-EUR"
+            },
+            wSize:{
+                wWidth:"auto",
+                wHeight:20
+            }
+        });
+        });
+        
+        </script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col menu position-relative">
+                <ul>
+                   <a href="index.html"><li class="active">Anasayfa</li></a> 
+                   <a href="gundem.html"><li >Gündem</li></a> 
+                    <li>Sağlık</li>
+                    <li >Spor</li>
+                    <li class="position-absolute bottom-25 end-0" id="W1938">  
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+</div>
+
+</body>
+</html>

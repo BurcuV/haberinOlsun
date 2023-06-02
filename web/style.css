@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clear{
+    clear: both;
+}
+.menu{
+    margin:0px;
+padding: 0px;
+list-style:none;
+height: 50px;
+}
+.menu ul{
+    float: left;
+}
+/* }
+.tab li {
+    float: left;
+    padding: 5px 10px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+
+}
+.tab li:hover{
+    color: #f00;
+    border-bottom: 1px solid #555;
+}
+.tab-content{
+ height: auto;
+}
+.tab-content div{
+    width: 100%;
+    height: auto;
+    background-color: #555;
+    padding: 10px;
+} */
